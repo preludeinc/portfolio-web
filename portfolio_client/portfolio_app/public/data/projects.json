@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Portfolio Website",
+        "description": "This website was made with a Django REST API and a React front end, with styling assistance from Mantine UI. It was refactored to be a static site during the deployment process, and is deployed via Digital Ocean.",
+        "category": 1
+    },
+    {
+        "id": 2,
+        "title": "Capstone Symposium Website",
+        "description": "Built using React, NextUI, Tailwind CSS, and Vite. This website was used to promote the Symposium and to provide access to event registration. I deployed the website on an Ubuntu server, following installation of a LAMP stack. Deployment also required use of an .htaccess file to ensure a Single Page Application (SPA) was served properly from an Apache environment.",
+        "category": 1
+    },
+    {
+        "id": 3,
+        "title": "Token Platformer",
+        "description": "Created in C# using Unity. This 2D platformer was created with modularity in mind by using: a series of controllers, a sound mixer to manage sound, and by tracking game state through game events. A* Pathfinding guides enemy movement and a particle effect plays upon player win.",
+        "category": 2
+    },
+    {
+        "id": 4,
+        "title": "Tetris",
+        "description": "Built in C++. Writing this game provided exposure to working with a series of interconnected classes and Vectors.",
+        "category": 2
+    },
+    {
+        "id": 5,
+        "title": "PIC18F4685 Computer",
+        "description": "A microcontroller based computer, made by wiring: the PIC18F4685 (an eight-bit microcontroller), Hitachi LCD, Matrix 4x4 keypad, and an external crystal oscillator together. The project's code, written in C, initializes the LCD and provides keypad functionality, including scrolling, a backspace, and clearing the screen.",
+        "category": 3
+    }
+]
