@@ -63,7 +63,7 @@ export default function Eng() {
                 loading="lazy"
                 opacity="0.75"
               />
-              <Text ta={{ base: "left", md: "center" }} size="lg" mt={10}>
+              <Text ta={{ base: "left", md: "center" }} size="lg" mt={10} mb={10}>
                 Pictured left to right & top to bottom: LCD, Matrix 4x4
                 keypad, PIC, Crystal Oscillator, Button, Resistor, LED
                 light-bar, & power supply.

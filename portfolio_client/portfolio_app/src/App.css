@@ -61,7 +61,7 @@ a {
 }
 
 .container {
-  padding: 2.5em 1em 4em 1em;
+  padding: 2em 1em 4em 1em;
   color: white;
 }
 
@@ -141,7 +141,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .contact-text {
@@ -183,13 +183,14 @@ a {
   .home-container {
     width: auto;
     padding: 0;
+    padding-bottom: 1em;
     margin-top: 1em;
-    margin-bottom: 2em;
   }
 
   .container {
     width: 80vw;
-    padding: 1.25em 0.25em 2.25em 2.25em;
+    padding: 0.25em 0.25em 2.25em 2.5em;
+    margin-bottom: 20px;
   }
 
   .container,
@@ -222,7 +223,7 @@ a {
   }
 
   .navbarMain {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .hero-image,
@@ -241,13 +242,13 @@ a {
 
   .about-text {
     font-weight: 300;
-    margin: 0 0.75em 0 1.5em;
+    margin: 0 0.75em 0 1.75em;
     list-style: none;
   }
 
   .banner,
   .banner-row-two {
-    margin: 0 0.5em 0 0.5em;
+    margin: 0 0.75em 0 0.75em;
     padding: 0;
   }
   
@@ -260,7 +261,7 @@ a {
   }
 
   .footer-inner {
-    padding: var(--mantine-spacing-md);
+    padding: var(--mantine-spacing-sm);
   }
 } 
 
@@ -268,6 +269,7 @@ a {
   .home-container {
     padding: 0 2em 1em 2em;
     margin: 0;
+    margin-bottom: 20px;
   }
 
   .container {
