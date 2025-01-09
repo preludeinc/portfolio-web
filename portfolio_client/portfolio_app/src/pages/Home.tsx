@@ -28,8 +28,8 @@ export default function Home() {
       <Navbar page={homePage} />
       <Container className="home-container" fluid>
         <Container className="banner" size="xl">
-          <Grid gutter={50}>
-            <Grid.Col span={{ base: 12, md: 12, lg: 5.65 }}>
+          <Grid gutter={40}>
+            <Grid.Col span={{ base: 12, md: 12, lg: 6 }}>
               <Title ta="center" className="home-title">
                 Home
               </Title>
@@ -89,7 +89,7 @@ export default function Home() {
                 </Box>
             </Grid.Col>
 
-            <Grid.Col span={{ base: 12, md: 12, lg: 6.35 }}>
+            <Grid.Col span={{ base: 12, md: 12, lg: 6 }}>
               <Image
                 src={image}
                 radius="xl"

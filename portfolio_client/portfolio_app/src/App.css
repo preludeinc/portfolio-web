@@ -72,6 +72,7 @@ a {
   flex-direction: column;
   color: white;
   padding: 20px;
+  padding-top: 40px;
 }
 
 .banner, 
@@ -95,9 +96,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.5em;
+  font-size: 3.75em;
   font-weight: 900;
-  margin-top: 8%;
+  margin-top: 7%;
 }
 
 .welcome-text {
