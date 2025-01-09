@@ -65,7 +65,7 @@ export default function Games() {
           data.map((_item, _i) => (
             <div key={_item.id}>
               <Title order={2} 
-                mt={{ base: 5, md: 10}}
+                mt={{ base: 5, md: 10 }}
                 mb={20} 
                 ta="left">
                 {_item.title}

@@ -29,7 +29,7 @@ export default function Home() {
       <Container className="home-container" fluid>
         <Container className="banner" size="xl">
           <Grid gutter={60}>
-            <Grid.Col span={{ base: 12, md: 6 }}>
+            <Grid.Col span={{ base: 12, md: 12, lg: 5.65 }}>
               <Title ta="center" className="home-title">
                 Home
               </Title>
@@ -41,9 +41,9 @@ export default function Home() {
                   <List
                     ta="left"
                     spacing="md"
-                    size="lg"
-                    mt={{ base: "sm", md: "md" }}
-                    mb={{ base: "sm", md: "lg" }}
+                    size="xl"
+                    mt={{ base: "sm", lg: "md" }}
+                    mb={{ base: "sm", lg: "md" }}
                     fw={600}
                     className="about-text"
                   >
@@ -67,9 +67,9 @@ export default function Home() {
 
                   <Group justify="center" 
                     align="center" 
-                    gap="sm" 
-                    mt={{ base: "md" }} 
-                    mb={{ base: "md", md: "lg"}}>
+                    gap="xs" 
+                    mt={{ base: "sm", md: "lg" }} 
+                    mb={{ base: 0, md: "lg", lg: "xl" }}>
                     <Anchor href="/websites">
                       <Button variant="filled" color="cyan" size="compact-lg">
                         Websites
@@ -89,7 +89,7 @@ export default function Home() {
                 </Box>
             </Grid.Col>
 
-            <Grid.Col span={{ base: 12, md: 6 }}>
+            <Grid.Col span={{ base: 12, md: 12, lg: 6.35 }}>
               <Image
                 src={image}
                 radius="xl"
@@ -105,10 +105,10 @@ export default function Home() {
 
         <Container className="banner-row-two" size="xl">
           <Grid 
-            mt={{base: 0, md: "lg"}}
-            mb={{base: 0, md: "lg"}}
-            gutter={{ base: 15, md: 30 }} className="banner-images-row-two">
-            <Grid.Col span={{ base: 3.5, md: 3.75 }}>
+            mt={{ base: 0, md: "lg" }}
+            mb={{ base: "sm", md: "lg" }}
+            gutter={{ base: 15, md: 30, lg: 50 }} className="banner-images-row-two">
+            <Grid.Col span={{ base: 3.5, md: 3.9 }}>
                 <Image
                   src={web}
                   radius="50%"
@@ -118,7 +118,7 @@ export default function Home() {
                 />
             </Grid.Col>
 
-            <Grid.Col span={{ base: 3.5, md: 3.75 }}>
+            <Grid.Col span={{ base: 3.5, md: 3.75, lg: 3.9 }}>
                 <Image
                   src={games}
                   radius="50%"
@@ -127,7 +127,7 @@ export default function Home() {
                   loading="lazy"
                   />
             </Grid.Col>
-            <Grid.Col span={{ base: 3.5, md: 3.75 }}>
+            <Grid.Col span={{ base: 3.5, md: 3.75, lg: 3.9 }}>
                 <Image
                   src={eng}
                   radius="50%"
@@ -139,7 +139,7 @@ export default function Home() {
           </Grid>
         </Container>
 
-        <Container size="xs" mb={{ base: "lg", md: 0 }}>
+        <Container size="sm" mb={{ base: "lg", md: 0 }}>
           <Box
             ta="left"
             mt={{ base: "md", md: "xl" }}
@@ -149,7 +149,6 @@ export default function Home() {
             <Title
               order={1}
               ta="center"
-              mr={{ base: 5 }}
               mt={{ base: 0, md: "md" }}
               mb={{ base: "sm", md: "md" }}
             >

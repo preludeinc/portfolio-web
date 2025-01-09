@@ -26,7 +26,7 @@ export default function Eng() {
         <Title
           ta={{ base: "left", md: "center" }}
           mt={{ base: 5, md: 10 }}
-          mb={20} 
+          mb={{ base: 20, lg: 30 }} 
           className="title"
         >
           Embedded Programming
@@ -47,7 +47,7 @@ export default function Eng() {
               <Text
                 ta="left"
                 size="xl"
-                mt={{ base: 5, md: 10 }}
+                mt={{ base: 5, md: 10, lg: 15 }}
                 mb={15}
               >
                 {_item.description}
@@ -64,9 +64,9 @@ export default function Eng() {
                 opacity="0.75"
               />
               <Text ta={{ base: "left", md: "center" }} size="lg" mt={10}>
-                Pictured left to right and top to bottom: LCD, Matrix 4x4
+                Pictured left to right & top to bottom: LCD, Matrix 4x4
                 keypad, PIC, Crystal Oscillator, Button, Resistor, LED
-                light-bar, and power supply.
+                light-bar, & power supply.
               </Text>
               <Image />
             </div>
