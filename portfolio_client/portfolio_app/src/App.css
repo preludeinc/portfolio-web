@@ -71,7 +71,7 @@ a {
   justify-content: center;
   flex-direction: column;
   color: white;
-  padding: 30px;
+  padding: 20px;
 }
 
 .banner, 
@@ -79,7 +79,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  padding: 20px;
+  padding: 15px;
 }
 
 .home-title,
@@ -126,11 +126,9 @@ a {
 .about-text {
   display: flex;
   flex-flow: column nowrap;
-  font-size: 1.4em;
   justify-content: start;
   align-items: start;
   list-style: circle;
-  margin-left: 2%;
 }
 
 .hero-image {

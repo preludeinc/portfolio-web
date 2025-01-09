@@ -28,7 +28,7 @@ export default function Home() {
       <Navbar page={homePage} />
       <Container className="home-container" fluid>
         <Container className="banner" size="xl">
-          <Grid gutter={60}>
+          <Grid gutter={50}>
             <Grid.Col span={{ base: 12, md: 12, lg: 5.65 }}>
               <Title ta="center" className="home-title">
                 Home
@@ -107,8 +107,8 @@ export default function Home() {
           <Grid 
             mt={{ base: 0, md: "lg" }}
             mb={{ base: "sm", md: "lg" }}
-            gutter={{ base: 15, md: 30, lg: 50 }} className="banner-images-row-two">
-            <Grid.Col span={{ base: 3.5, md: 3.9 }}>
+            gutter={{ base: 15, md: 30, lg: 60 }} className="banner-images-row-two">
+            <Grid.Col span={{ base: 3.5, md: 3.8, lg: 4 }}>
                 <Image
                   src={web}
                   radius="50%"
@@ -118,7 +118,7 @@ export default function Home() {
                 />
             </Grid.Col>
 
-            <Grid.Col span={{ base: 3.5, md: 3.75, lg: 3.9 }}>
+            <Grid.Col span={{ base: 3.5, md: 3.8, lg: 4 }}>
                 <Image
                   src={games}
                   radius="50%"
@@ -127,7 +127,7 @@ export default function Home() {
                   loading="lazy"
                   />
             </Grid.Col>
-            <Grid.Col span={{ base: 3.5, md: 3.75, lg: 3.9 }}>
+            <Grid.Col span={{ base: 3.5, md: 3.8, lg: 4 }}>
                 <Image
                   src={eng}
                   radius="50%"
@@ -212,7 +212,7 @@ export default function Home() {
                   variant="filled"
                   size="compact-lg"
                   color="cyan"
-                  mb="lg"
+                  mb="xl"
                 >
                   Send
                 </Button>
