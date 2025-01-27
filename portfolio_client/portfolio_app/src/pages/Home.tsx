@@ -51,7 +51,7 @@ export default function Home() {
                       A bit about me:
                     </List.Item>
                     <List.Item>
-                      I'm an aspiring developer with an interest in Cybersecurity.
+                      I'm a junior developer with an interest in Cybersecurity.
                     </List.Item>
                     <List.Item>
                       I studied Psychology prior to transitioning into tech.
