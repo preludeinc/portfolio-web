@@ -8,6 +8,7 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 import { Loader } from "../components/Loader";
 import ReactPlayer from "react-player";
 import tokenPlatformer from "/images/token_platformer.jpg";
+import tetrisStill from "/images/tetris.jpg";
 
 export default function Games() {
   const [data, setData] = useState<Project[]>();
@@ -65,7 +66,7 @@ export default function Games() {
           data.map((_item, _i) => (
             <div key={_item.id}>
               <Title order={2} 
-                mt={{ base: 5, md: 10 }}
+                mt={{ base: 10, md: 15 }}
                 mb={20} 
                 ta="left">
                 {_item.title}
@@ -83,7 +84,7 @@ export default function Games() {
                   <Text
                     ta="left"                    
                     mt={{ base: 10, md: 10 }}
-                    mb={15}
+                    mb={{ base: 20, md: 15 }}
                     size="xl"
                   >
                   Click play if you would like to give it a try.
@@ -122,12 +123,14 @@ export default function Games() {
                     <ReactPlayer
                       url={tetris}
                       width="100%"
-                      height="auto"
+                      height="100%"
+                      light={tetrisStill}
+                      loading="lazy" 
                       controls
                     />
                   </AspectRatio>
                   <Text size="lg" mt={10} mb={{ base: 10, md: 15 }} 
-                    text-wrap="wrap">
+                    text-wrap="wrap" className="tetris-caption">
                       Game play is shown at 2x speed. As points are gained, 
                       pieces fall more quickly.
                   </Text>

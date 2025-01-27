@@ -51,7 +51,7 @@ export default function Home() {
                       A bit about me:
                     </List.Item>
                     <List.Item>
-                      I'm a junior developer with an interest in Cybersecurity.
+                      I'm a developer with an interest in Cybersecurity.
                     </List.Item>
                     <List.Item>
                       I studied Psychology prior to transitioning into tech.
@@ -144,7 +144,6 @@ export default function Home() {
             ta="left"
             mt={{ base: "md", md: "xl" }}
             mb={{ base: "xl", md: "md" }}
-            className="contact-form"
           >
             <Title
               order={1}
