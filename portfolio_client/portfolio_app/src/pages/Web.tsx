@@ -31,7 +31,7 @@ export default function Web() {
             data.map((_item) => (
               <div key={_item.id}>
                 <Title order={2} ta="left"                 
-                  mt={{ base: 5, md: 10 }}
+                  mt={{ base: 15 }}
                   mb={{ base: 10, md: 20 }} >
                   {_item.title}
                 </Title>
