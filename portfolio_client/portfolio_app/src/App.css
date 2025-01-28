@@ -61,7 +61,7 @@ a {
 }
 
 .container {
-  padding: 2em 1em 4em 1em;
+  padding: 2em 1em 0.5em 1em;
   color: white;
 }
 
@@ -268,7 +268,6 @@ a {
 
   .home-container .footer-inner
   {
-    padding: var(--mantine-spacing-xl);
     margin-right: 2.5em;
   }
 } 
