@@ -41,7 +41,7 @@ export default function Home() {
                   <List
                     ta="left"
                     spacing="md"
-                    size="xl"
+                    size="lg"
                     mt={{ base: "sm", lg: "md" }}
                     mb={{ base: "sm", lg: "md" }}
                     fw={600}
